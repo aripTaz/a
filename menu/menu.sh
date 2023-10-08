@@ -172,7 +172,7 @@ resv2r="${red}OFF${NC}"
 fi
 clear
 echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | lolcat
-echo -e "                 • Rerechan Store •                 "
+echo -e "                 • PANEL STVPN STORE •                 "
 echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | lolcat
 echo -e "\e[33m OS            \e[0m:  "`hostnamectl | grep "Operating System" | cut -d ' ' -f5-`
 echo -e "\e[33m IP            \e[0m:  $IP"
@@ -201,7 +201,6 @@ echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━�
 echo -e "${BICyan}$NC ${BICyan}HARI ini${NC}: ${red}$ttoday$NC ${BICyan}KEMARIN${NC}: ${red}$tyest$NC ${BICyan}BULAN${NC}: ${red}$tmon$NC $NC"
 echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | lolcat
 echo -e " \e[33mClient Name   \E[0m: $nama"
-echo -e " \e[33mScrip Version \E[0m: 1.2"
 echo -e " \e[33mScrip Expired \E[0m: $tanggal"
 echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | lolcat
 echo -e   ""
