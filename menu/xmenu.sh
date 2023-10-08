@@ -95,7 +95,7 @@ echo -e "\e[33m└────────────────────�
 echo -e "${BICyan}\033[0m ${BOLD}  ${GREEN}  FN${BIYellow}  ${BIYellow}  VMESS  ${GREEN}  FN  ${BIYellow}  VLESS  ${GREEN}  FN $NC "
 echo -e "${BICyan}\033[0m ${Blue}              $vma           $vla                         $NC"
 echo -e "\033[1;93m┌─────────────────────────────────────────────────┐\033[0m"
-echo -e "\033[1;93m│\033[0m            ${RED}SCRIPT BY RERECHAN STORE $NC \033[1;93m           │\033[0m"
+echo -e "\033[1;93m│\033[0m            ${RED}SCRIPT BY ST-VPN STORE $NC \033[1;93m           │\033[0m"
 echo -e "\033[1;93m└─────────────────────────────────────────────────┘\033[0m"
 echo -e " [\e[36m•01\e[0m] Create Vmess         [\e[36m•06\e[0m] Create Vless"
 echo -e " [\e[36m•02\e[0m] Trial Vmess          [\e[36m•07\e[0m] Trial Vless"
