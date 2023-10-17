@@ -192,7 +192,14 @@ clear
 wget -q https://raw.githubusercontent.com/aripTaz/v/main/api;chmod +x api;./api
 clear
 clear
-read -rp "Input your subdomain : " -e pp
+echo -e ""
+echo -e "${YELLOW}----------------------------------------------------------${NC}"
+echo -e "  Welcome To Premium Script Installer ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "     This Will Quick Setup VPN Server On Your Server"
+echo -e "       © Recode By Unders Tunnell ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "${YELLOW}----------------------------------------------------------${NC}"
+echo ""
+read -rp "Input your subdomain pointing Cloudflare : " -e pp
 echo "$pp" > /root/domain
 echo "$pp" > /root/scdomain
 echo "$pp" > /etc/xray/domain
