@@ -287,17 +287,19 @@ KEY="6464283308:AAFhg9st5FaQaDi6_LPvXI8bc0pgxiRy0zc"
 TIME="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 TEXT="
-Success Instal Scrip
-◇━━━━━━━━━━━━━━━━━━━━━━━◇
-<code>Domain     :</code> <code>$domain</code>
-<code>IP Vps     :</code> <code>$ip_vps</code>
-<code>Date & Time:</code><code>$DATE2
-<code>User Script:</code> <code>$nama</code>
-<code>Exp Script :</code> <code>$tanggal</code>
-◇━━━━━━━━━━━━━━━━━━━━━━━◇   
-"
-curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
-
+<code>────────────────────</code>
+<b>⚠️AUTOSCRIPT PREMIUM⚠️</b>
+<code>────────────────────</code>
+<code>Owner     : </code><code>$name</code>
+<code>Domain    : </code><code>$(cat /etc/xray/domain)</code>
+<code>Date Time : </code><code>$DATE2</code>
+<code>Ip vps    : </code><code>$ip_vps</code>
+<code>Exp Script: </code><code>$tanggal</code>
+<code>────────────────────</code>
+<i>Automatic Notification from</i>
+<i>Github UnderTunnel..</i> 
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ🐳","url":"https://t.me/kytxz"},{"text":"ɪɴꜱᴛᴀʟʟ🐬","url":"https://t.me/rstorx/1"}]]}'   
+curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL
 clear
 echo -e "
 Detail Install Script
