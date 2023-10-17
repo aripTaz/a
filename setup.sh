@@ -1,10 +1,6 @@
 #!/bin/bash
 DATE2=$(date -R | cut -d " " -f -5)
 # BOT INFORMATION
-export CHATID="-1001901358592"
-export KEY="6582698510:AAHXwQ6NhYWrj7eFJJZMAQv33noGu9S7Xfo"
-export TIME="10"
-export URL="https://api.telegram.org/bot$KEY/sendMessage"
 IP=$(curl ipinfo.io/ip);
 domain=$(cat /etc/xray/domain)
 date=$(date +"%Y-%m-%d")
@@ -234,7 +230,7 @@ wget https://raw.githubusercontent.com/aripTaz/a/main/xray/ins-xray.sh && chmod 
 clear
 wget https://raw.githubusercontent.com/aripTaz/a/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 #clear
-#wget https://raw.githubusercontent.com/Rerechan02/v/main/wireguard/installsl.sh && chmod +x installsl.sh && ./installsl.sh
+wget https://raw.githubusercontent.com/aripTaz/a/main/wireguard/installsl.sh && chmod +x installsl.sh && ./installsl.sh
 clear
 sleep 3
 clear
@@ -286,23 +282,22 @@ rm /root/set-br.sh >/dev/null 2>&1
 rm /root/ssh-vpn.sh >/dev/null 2>&1
 rm /root/insshws.sh >/dev/null 2>&1
 clear
-echo -e "
+CHATID="-1001801575895"
+KEY="6464283308:AAFhg9st5FaQaDi6_LPvXI8bc0pgxiRy0zc"
+TIME="10"
+URL="https://api.telegram.org/bot$KEY/sendMessage"
+TEXT="
+Success Instal Scrip
+◇━━━━━━━━━━━━━━━━━━━━━━━◇
+<code>Domain     :</code> <code>$domain</code>
+<code>IP Vps     :</code> <code>$ip_vps</code>
+<code>Date & Time:</code><code>$DATE2
+<code>User Script:</code> <code>$nama</code>
+<code>Exp Script :</code> <code>$tanggal</code>
+◇━━━━━━━━━━━━━━━━━━━━━━━◇   
 "
-TEXT="𝗦𝘂𝗰𝗰𝗲𝘀 𝗮𝘁 𝗥𝗲𝗴𝗶𝘀𝘁𝗿𝘆
-    𝗩𝗣𝗦 𝗜𝗡𝗙𝗢
-    ◇━━━━━━━━━━━━━━━━━━━━━━━◇
-    <code>Domain     :</code> <code>$domain</code>
-    <code>IP Vps     :</code> <code>$ip_vps</code>
-    <code>Date & Time:</code><code>$DATE2
-    <code>User Script:</code> <code>$nama</code>
-    <code>Exp Script :</code> <code>$tanggal</code>
-    ◇━━━━━━━━━━━━━━━━━━━━━━━◇
-    ⚠︎𝘽𝙮 RZ-Tun 𝙋𝙧𝙤𝙟𝙚𝙘𝙩 𝙈𝙖𝙣𝙖𝙜𝙚𝙧 𝘾𝙤𝙢𝙢𝙪𝙣𝙞𝙩𝙮⚠︎
-    ◇━━━━━━━━━━━━━━━━━━━━━━━◇
-"
-clear
 curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
-echo ""
+
 clear
 echo -e "
 Detail Install Script
